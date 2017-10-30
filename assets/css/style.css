@@ -1,0 +1,164 @@
+/* COLORS */
+/* #000000
+#502F4C
+#70587C
+#C8B8DB
+#F9F4F5 */
+
+/* FONT-FAMILY */
+/* font-family: 'Shadows Into Light', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Titillium Web', sans-serif; */
+
+/* *
+{
+    margin: 0;
+    padding: 0;
+} */
+
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.page_wrapper
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #C8B8DB;
+}
+
+header
+{
+    width: 100%;
+    height: 130px;
+    font-family: 'Indie Flower', cursive;
+    background-color: #502F4C;
+    border-radius: 20px 20px 0 0;
+}
+
+h1
+{
+    font-size: 68px;
+    margin: 0;
+}
+
+.topbar, .topbar-right, .row, .sign-in, .form-group
+{
+    display: flex;
+}
+
+.topbar
+{
+    padding: 0 5px 0 10px;
+    justify-content: space-between;
+}
+
+.topbar-right
+{
+    align-items: center;
+}
+
+.topbar-right a
+{
+    color:#000000;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 40px;    
+}
+
+.topbar-right a:hover
+{
+    color:#C8B8DB;
+}
+
+.topbar-quote
+{
+    text-align: right;
+    padding-right: 22px;
+}
+
+.page_wrapper > .row
+{
+    justify-content: space-between;
+}
+
+.last-pics
+{
+    height: 640px;
+    width: 350px;
+    background-color: #502F4C;
+    margin-right: 45px;
+    border-radius: 20px;
+}
+
+.take-pics
+{
+    height: 440px;
+    width: 550px;
+    background-color: #502F4C;
+    margin-left: 45px;
+    border-radius: 20px;
+    
+}
+
+.fake-row
+{
+    height: 100px;
+    background-color: #C8B8DB;
+}
+
+h3
+{
+    margin: 0px;
+    padding: 1em;
+    font-family: 'Indie Flower', cursive;    
+    text-align: center;
+    border-bottom: solid #000000 2px;
+}
+
+footer
+{
+    width: 100%;
+    height: 100px;
+    font-family: 'Indie Flower', cursive;
+    background-color: #502F4C;
+    border-radius: 0px 0px 20px 20px;
+}
+
+/*
+    SIGN IN
+*/
+
+.sign-in
+{
+    height: 20%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-group
+{
+    width: 200px;
+    height: 50px;
+    background-color: #502F4C;
+    border-radius: 20px;
+}
+
+.form-group input
+{
+    height: 50%;
+    /*width: 50%;
+    margin: 25%; */
+    display: block;
+    margin: auto;
+    background-color: #70587C;
+}
