@@ -7,7 +7,7 @@
 <!-- <button>toto</button> -->
 
 <img src="assets/fleur.png" alt="tamere" class="flower" id="flower">
-<img src="assets/fleur2.png" alt="tamere" class="flower" id="flower">
+<img src="assets/fleur2.png" alt="tamere" class="flower" id="flower2">
 
 <div class="box-flex">
     <div class="box-sign-in">
@@ -56,19 +56,5 @@
 <div class="fake-row"></div>
 <div class="fake-row"></div>
 
-<script>
-    const box_register = document.querySelector('.box-flex .box-register');
-    const display_none = (elem) => { 
-        if (elem.style.display === 'none')
-            elem.style.display = 'block';
-        else
-            elem.style.display = 'none';
-    }
-    // const display_none = (elem) => { elem.style.display = 'none'; }
-    document.getElementById('flower').addEventListener('click', function () {
-    display_none(box_register);
-});
-    // display_none(box_register);
-    // console.log(box_register);
-</script>
+<script src="assets/js/register.js"></script>
 <?php include('footer.php') ?>

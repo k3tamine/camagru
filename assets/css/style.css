@@ -89,6 +89,7 @@ h1
 .page_wrapper > .row
 {
     justify-content: space-between;
+    background-color: #C8B8DB;    
 }
 
 .last-pics
