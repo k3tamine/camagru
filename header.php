@@ -3,6 +3,7 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" href="assets/css/style.css" />
         <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Shadows+Into+Light|Titillium+Web" rel="stylesheet">
+        <!-- <script src="assets/js/register.js"></script> -->
         <title>Camagru</title>
     </head>
     
