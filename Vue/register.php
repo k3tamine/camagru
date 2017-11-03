@@ -1,4 +1,4 @@
-<?php include('header.php') ?>
+<?php require_once('header.php') ?>
 <div class="fake-row"></div>
 
 <h2>Please log in or register</h2>
@@ -6,8 +6,8 @@
 <!-- <button type="submit">toto</button> -->
 <!-- <button>toto</button> -->
 
-<img src="assets/fleur.png" alt="tamere" class="flower" id="flower">
-<img src="assets/fleur2.png" alt="tamere" class="flower" id="flower2">
+<!-- <img src="assets/pics/fleur.png" alt="tamere" class="flower" id="flower">
+<img src="assets/pics/fleur2.png" alt="tamere" class="flower" id="flower2"> -->
 
 <div class="box-flex">
     <div class="box-sign-in">
@@ -57,4 +57,4 @@
 <div class="fake-row"></div>
 
 <script src="assets/js/register.js"></script>
-<?php include('footer.php') ?>
+<?php require_once('footer.php') ?>

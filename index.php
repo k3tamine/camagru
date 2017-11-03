@@ -1,4 +1,4 @@
-<?php include('header.php') ?>
+<?php require_once('Vue/header.php') ?>
 <div class="fake-row"></div>
 <div class="row">
     <aside class="take-pics">
@@ -13,4 +13,4 @@
 <div class="fake-row"></div>
 <div class="fake-row"></div>
 <div class="fake-row"></div>
-<?php include('footer.php') ?>
+<?php require_once('Vue/footer.php') ?>
