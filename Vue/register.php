@@ -6,8 +6,8 @@
 <!-- <button type="submit">toto</button> -->
 <!-- <button>toto</button> -->
 
-<!-- <img src="assets/pics/fleur.png" alt="tamere" class="flower" id="flower">
-<img src="assets/pics/fleur2.png" alt="tamere" class="flower" id="flower2"> -->
+<img src="../assets/pics/fleur.png" alt="tamere" class="flower" id="flower">
+<img src="../assets/pics/fleur2.png" alt="tamere" class="flower" id="flower2">
 
 <div class="box-flex">
     <div class="box-sign-in">
