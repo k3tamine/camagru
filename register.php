@@ -1,29 +1,26 @@
-<?php require_once('header.php') ?>
-<?php
+<?php require_once('Views/header.php')
 
-if(!empty($_POST))
-{
-    $errors = array();
-    if(empty($_POST['user_username']) || !preg_match('/^[a-zA-Z0-9_]+$/'), $_POST['user_username'])
-    {
-        $errors['user_username'] = "Pseudo invalide (a-zA-Z0-9_ autorisé)";
-    }
-    else if(empty($_POST['user_email']) || !filter_var($_POST['user_email'], FILTER_VALIDATE_EMAIL)){
-        $errors['user_email'] = "Email invalide (FILTER_VALIDATE_EMAIL)";
-    }
-    else if(empty($_POST['user_password']) || $_POST['user_password'] != $_POST['user_password_confirm'])
-    {
-        $errors['user_password'] = "Password incorrect";
-    }
-}
+// if(!empty($_POST))
+// {
+//     $errors = array();
+//     if(empty($_POST['user_username']) || !preg_match('/^[a-zA-Z0-9_]+$/'), $_POST['user_username'])
+//     {
+//         $errors['user_username'] = "Pseudo invalide (a-zA-Z0-9_ autorisé)";
+//     }
+//     else if(empty($_POST['user_email']) || !filter_var($_POST['user_email'], FILTER_VALIDATE_EMAIL)){
+//         $errors['user_email'] = "Email invalide (FILTER_VALIDATE_EMAIL)";
+//     }
+//     else if(empty($_POST['user_password']) || $_POST['user_password'] != $_POST['user_password_confirm'])
+//     {
+//         $errors['user_password'] = "Password incorrect";
+//     }
+// }
 
 ?>
 <div class="fake-row"></div>
 
 <h2>Please log in or register</h2>
 
-<!-- <button type="submit">toto</button> -->
-<!-- <button>toto</button> -->
 
 <img src="../assets/pics/fleur.png" alt="tamere" class="flower" id="flower">
 <img src="../assets/pics/fleur2.png" alt="tamere" class="flower" id="flower2">
@@ -76,4 +73,4 @@ if(!empty($_POST))
 <div class="fake-row"></div>
 
 <script src="assets/js/register.js"></script>
-<?php require_once('footer.php') ?>
+<?php require_once('Views/footer.php') ?>

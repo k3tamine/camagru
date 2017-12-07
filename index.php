@@ -1,4 +1,8 @@
-<?php require_once('View/header.php') ?>
+<?php
+ini_set('display_errors', 1);
+define('ROOT', dirname(__FILE__));
+require_once(ROOT.'/Views/header.php') 
+?>
 <div class="fake-row"></div>
 <div class="row">
     <aside class="take-pics">
@@ -13,4 +17,4 @@
 <div class="fake-row"></div>
 <div class="fake-row"></div>
 <div class="fake-row"></div>
-<?php require_once('View/footer.php') ?>
+<?php require_once(ROOT.'/Views/footer.php') ?>
