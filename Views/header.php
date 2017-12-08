@@ -15,10 +15,10 @@
                     <div class="topbar-logo">
                         <h1>Camagru</h1>
                     </div>
-                    <!-- <div class="topbar-right"> -->
-                        <!-- <a href="#">S'inscrire</a> -->
-                        <!-- <a href="#">Se connecter</a> -->
-                    <!-- </div> -->
+                    <div class="topbar-right">
+                        <a href="register.php">S'inscrire</a>
+                        <a href="register.php">Se connecter</a>
+                    </div>
                 </div>
                 <div class="topbar-quote">
                     LIKE MY PICS C0CKSUCKER

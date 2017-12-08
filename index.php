@@ -4,7 +4,7 @@ define('ROOT', dirname(__FILE__));
 require_once(ROOT.'/Views/header.php') 
 ?>
 <div class="fake-row"></div>
-<div class="row">
+<div class="row flex-wrap">
     <aside class="take-pics">
         <h3>Take your pics</h3>
     </aside>

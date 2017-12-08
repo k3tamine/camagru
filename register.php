@@ -25,7 +25,7 @@
 <img src="../assets/pics/fleur.png" alt="tamere" class="flower" id="flower">
 <img src="../assets/pics/fleur2.png" alt="tamere" class="flower" id="flower2">
 
-<div class="box-flex">
+<div class="box-flex flex-wrap">
     <div class="box-sign-in">
         <form action="#" method="post" class="sign-in">
             <div class="form-group">
